@@ -353,7 +353,7 @@
     document.getElementById("masked-info").style.display = e ? "block" : "none", document.getElementById("info").style.display = e ? "none" : "block"
 }
 
-setDynamicTime(".refresh-time", 5, 19), addStorageField("_name", "#masked-name", "名字", "习近平", presetFilters.lastcharonly), addStorageField("_name", "#name", "名字", "习近平"), addStorageField("_idcard", "#masked-idcard", "身份证号", "110101195306153019", e => `<div class="id-unmasked">${e[0]}</div><div class="id-masked">*** **** **** **** *</div><div class="id-unmasked">${e.slice(-1)}</div>`), addStorageField("_idcard", "#idcard", "身份证号", "110101195306153019");
+setDynamicTime(".refresh-time", 5, 19), addStorageField("_name", "#masked-name", "名字", "张宇", presetFilters.lastcharonly), addStorageField("_name", "#name", "名字", "张宇"), addStorageField("_idcard", "#masked-idcard", "身份证号", "110101195306153019", e => `<div class="id-unmasked">${e[0]}</div><div class="id-masked">*** **** **** **** *</div><div class="id-unmasked">${e.slice(-1)}</div>`), addStorageField("_idcard", "#idcard", "身份证号", "110101195306153019");
 const nav_scroll = () => {
     window.addEventListener("scroll", () => {
         var e = window.pageYOffset / document.documentElement.clientHeight;
