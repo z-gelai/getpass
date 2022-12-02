@@ -10,6 +10,11 @@
 <link rel="stylesheet" href="app.css">
 <link rel="stylesheet" href="../common/nav.css">
 <script src="../common/base.js"></script>
+<script>
+    function toCard() {
+        window.location.href="https://z-gelai.github.io/getpass/trip-card/index.html";
+    }
+</script>
 <div class="capsule capsule--wechat" onclick="navigateHome()">
     <svg class="capsule__menu-icon" viewBox="0 0 64 28" xmlns="http://www.w3.org/2000/svg">
         <circle cx="32" cy="14" r="9.5"/>
@@ -96,7 +101,7 @@
                 <image src="./static/txdsj.png"></image>
                 通信大数据
             </view>
-            <view class="xc-box">
+            <view class="xc-box" onclick="toCard()">
                 <image class="xc-img" src="./static/txdsjxck.png"></image>
                 <view>行程卡</view>
             </view>
